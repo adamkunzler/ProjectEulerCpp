@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <numeric>
 
-#include "../../Utils/prime.cpp"
+#include "../../../Utils/prime.cpp"
 
 // 10001st prime number
 

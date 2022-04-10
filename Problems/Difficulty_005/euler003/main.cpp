@@ -4,7 +4,7 @@
 #include <numeric>
 #include <cstdint>
 
-#include "../../Utils/prime.cpp"
+#include "../../../Utils/prime.cpp"
 
 // largest prime factor of a number
 
