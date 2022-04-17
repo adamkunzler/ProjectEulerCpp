@@ -26,7 +26,7 @@ bool isPrime(T n)
 }
 
 //
-// Get all prime numbers less than n (efficient up to n < 10 million)
+// Get all prime numbers less than n, inclusive (efficient up to n < 10 million)
 //
 // Time Complexity => O(n * log(log(n)))
 //
