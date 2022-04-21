@@ -2,7 +2,7 @@
 #include <numeric>
 #include <string>
 
-#include "../../../Utils/strings.cpp"
+#include "../../../Utils/stringNumbers.cpp"
 
 // largest product in a series
 

@@ -4,7 +4,7 @@
 #include <string>
 #include <numeric>
 
-#include "../../../Utils/strings.cpp"
+#include "../../../Utils/stringNumbers.cpp"
 
 // sum of the digits of a number
 

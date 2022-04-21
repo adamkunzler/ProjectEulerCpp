@@ -5,6 +5,7 @@
 #include <cmath>
 
 #include "../../../Utils/strings.cpp"
+#include "../../../Utils/stringNumbers.cpp"
 
 // greatest product of four adjacent numbers in same direction (up down left right diagonal)
 /*

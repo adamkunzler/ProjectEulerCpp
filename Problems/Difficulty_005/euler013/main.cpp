@@ -3,7 +3,7 @@
 #include <string>
 #include <algorithm>
 
-#include "../../../Utils/strings.cpp"
+#include "../../../Utils/stringNumbers.cpp"
 
 // first ten digits of sum of 100 50 digit numbers
 

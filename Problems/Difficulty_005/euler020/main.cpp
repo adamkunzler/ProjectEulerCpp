@@ -4,11 +4,9 @@
 #include <string>
 #include <numeric>
 
-#include "../../../Utils/strings.cpp"
+#include "../../../Utils/stringNumbers.cpp"
 
 // sum of the digits of 100!
-
-#define MAX 1000
 
 void run(std::string);
 

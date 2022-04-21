@@ -1,5 +1,6 @@
 #include <cmath>
 #include <vector>
+#include <set>
 #include <iostream>
 #include <cstdint>
 
@@ -71,9 +72,9 @@ std::vector<T> sieveOfEratosthenes(T n)
 // Time Complexity: O(log n)
 //
 template <class T>
-std::vector<T> primeFactors(T n)
+std::set<T> primeFactors(T n)
 {
-	std::vector<T> factors;
+	std::set<T> factors;
 
 	T composite = 2;
 	T num = n;
@@ -83,7 +84,7 @@ std::vector<T> primeFactors(T n)
 		// check if it's a factor
 		if (num % composite == 0)
 		{
-			factors.push_back(composite);
+			factors.insert(composite);
 			num /= composite;
 		}
 		else
